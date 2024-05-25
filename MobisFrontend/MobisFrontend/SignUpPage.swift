@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SignupView: View {
+struct SignUpPage: View {
     @State private var username = ""
     @State private var password = ""
     @State private var email = ""
