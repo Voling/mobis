@@ -20,6 +20,8 @@
 		87F1EAB22C02873B00228378 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB12C02873B00228378 /* Feed.swift */; };
 		87F1EAB42C02877900228378 /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB32C02877900228378 /* LogInPage.swift */; };
 		87F1EAB62C0287A900228378 /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB52C0287A900228378 /* Landing.swift */; };
+		87F1EAB82C02956900228378 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB72C02956900228378 /* HealthManager.swift */; };
+		87F1EABA2C029EA200228378 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB92C029EA200228378 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		87F1EAB12C02873B00228378 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		87F1EAB32C02877900228378 /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
 		87F1EAB52C0287A900228378 /* Landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
+		87F1EAB72C02956900228378 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		87F1EAB92C029EA200228378 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				87F1EAB12C02873B00228378 /* Feed.swift */,
 				87F1EAB32C02877900228378 /* LogInPage.swift */,
 				87F1EAB52C0287A900228378 /* Landing.swift */,
+				87F1EAB72C02956900228378 /* HealthManager.swift */,
+				87F1EAB92C029EA200228378 /* Settings.swift */,
 			);
 			path = MobisFrontend;
 			sourceTree = "<group>";
@@ -276,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				87533D3B2C027C2300363E60 /* ContentView.swift in Sources */,
+				87F1EAB82C02956900228378 /* HealthManager.swift in Sources */,
 				87F1EAB22C02873B00228378 /* Feed.swift in Sources */,
 				87F1EAB02C02872200228378 /* Profile.swift in Sources */,
+				87F1EABA2C029EA200228378 /* Settings.swift in Sources */,
 				8753A0842C02855700E143AF /* Leaderboard.swift in Sources */,
 				87F1EAB42C02877900228378 /* LogInPage.swift in Sources */,
 				87F1EAB62C0287A900228378 /* Landing.swift in Sources */,

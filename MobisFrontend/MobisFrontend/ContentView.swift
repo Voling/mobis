@@ -1,21 +1,27 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @EnvironmentObject var manager: HealthManager
     @State var selectedTab = "Home"
     
     var body: some View {
         TabView(selection: $selectedTab){
             //insert each tab we want in our app
-            Landing()
-            SignUpPage()
-                .tag("Home")
+            Leaderboard()
+                .tag("Leaderboard")
+                .tabItem {
+                    Image(systemName: "person")
+                }
+            Feed()
+                .tag("Feed")
                 .tabItem {
                     Image(systemName: "house")
                 }
-            Leaderboard()
-                .tag("Content")
+            Profile()
+                .tag("Profile")
                 .tabItem {
-                    Image(systemName: "person")
+                    Image(systemName: "person.crop.circle")
                 }
         }
     }

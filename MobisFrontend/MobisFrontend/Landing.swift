@@ -15,7 +15,7 @@ struct Landing: View {
                 .fontWeight(.bold)
                 .padding(.top, 30)
             
-            Image("Redsquare")
+            Image("square")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 250, height: 250)
