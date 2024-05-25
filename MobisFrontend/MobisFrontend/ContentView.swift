@@ -6,6 +6,7 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selectedTab){
             //insert each tab we want in our app
+            Landing()
             SignUpPage()
                 .tag("Home")
                 .tabItem {
