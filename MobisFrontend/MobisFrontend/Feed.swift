@@ -4,7 +4,7 @@
 //
 //  Created by Zora Luo on 5/25/24.
 //
-
+//home page of app
 import SwiftUI
 
 struct Feed: View {
