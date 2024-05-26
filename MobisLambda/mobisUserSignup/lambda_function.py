@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     try:
         userId = event['request']['userAttributes']['sub']  # sub = uuid
         username = event['request']['userAttributes'].get(
-            'custom:username', 'N/A')  # for sort key
+            'username', 'N/A')  # for sort key
         runExperience = event['request']['userAttributes'].get(
             'custom:runExperience', 0)
         initialRank = 500
