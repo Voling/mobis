@@ -1,5 +1,6 @@
 {
   "expo": {
+    "assets": "./assets/images/background.jsx",
     "name": "mobisFrontend",
     "slug": "mobisFrontend",
     "version": "1.0.0",
