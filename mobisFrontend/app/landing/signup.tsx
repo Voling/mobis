@@ -25,12 +25,11 @@ const SignUp: React.FC<SignUpProps> = ({ apiURL }) => {
       console.log(userInfo)
       const session = await Auth.currentSession();
 
-      const data = await fetch("https://pfcd323x70.execute-api.us-west-1.amazonaws.com/dev", 
+      const data = await fetch("https://pfcd323x70.execute-api.us-west-1.amazonaws.com/dev/auth/signup", 
       {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': session.getIdToken().getJwtToken(),
           body: JSON.stringify(userInfo)
         },
       }
@@ -47,6 +46,7 @@ const SignUp: React.FC<SignUpProps> = ({ apiURL }) => {
       console.log('Sign up success!', signUpResponse);
       Alert.alert("Signup Success!", "A verification code has been sent to your email.");
     } catch (error) {
+      console.log("Error: ", error.status);
       console.log('Error signing up:', error);
       Alert.alert("Signup Error", error.message || "An error occurred during sign up.");
     }
