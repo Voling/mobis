@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/items": {
+      "name": "/items",
+      "lambdaFunction": "mobisfrontend775775d2",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

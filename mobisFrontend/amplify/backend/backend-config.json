@@ -1,5 +1,19 @@
 {
   "api": {
+    "api03b8164f": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "mobisfrontend775775d2"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
     "mobisfrontend": {
       "dependsOn": [],
       "output": {
@@ -18,7 +32,7 @@
     }
   },
   "auth": {
-    "mobisfrontend74d44a6f": {
+    "mobisfrontendc1e57c84": {
       "customAuth": false,
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
@@ -26,92 +40,99 @@
       "serviceType": "imported"
     }
   },
+  "function": {
+    "mobisfrontend775775d2": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "parameters": {
-    "AMPLIFY_auth_mobisfrontend74d44a6f_allowUnauthenticatedIdentities": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_allowUnauthenticatedIdentities": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_authRoleArn": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_authRoleArn": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_authRoleName": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_authRoleName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_identityPoolId": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_identityPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_identityPoolName": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_identityPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_nativeClientId": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_nativeClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_unauthRoleArn": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_unauthRoleArn": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_unauthRoleName": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_unauthRoleName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_userPoolId": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_userPoolId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_userPoolName": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_userPoolName": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     },
-    "AMPLIFY_auth_mobisfrontend74d44a6f_webClientId": {
+    "AMPLIFY_auth_mobisfrontendc1e57c84_webClientId": {
       "usedBy": [
         {
           "category": "auth",
-          "resourceName": "mobisfrontend74d44a6f"
+          "resourceName": "mobisfrontendc1e57c84"
         }
       ]
     }

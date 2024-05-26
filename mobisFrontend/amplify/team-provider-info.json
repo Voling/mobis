@@ -13,7 +13,7 @@
     },
     "categories": {
       "auth": {
-        "mobisfrontend74d44a6f": {
+        "mobisfrontendc1e57c84": {
           "userPoolId": "us-west-1_5SOVhTCcK",
           "userPoolName": "users",
           "webClientId": "1pmp2a32tbpc1bu9175i39vkb4",
@@ -26,6 +26,9 @@
           "unauthRoleArn": "arn:aws:iam::938224354854:role/mobisguests",
           "unauthRoleName": "mobisguests"
         }
+      },
+      "function": {
+        "mobisfrontend775775d2": {}
       }
     }
   }
