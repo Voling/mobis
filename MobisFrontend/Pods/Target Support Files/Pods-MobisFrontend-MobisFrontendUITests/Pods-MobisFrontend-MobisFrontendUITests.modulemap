@@ -1,0 +1,6 @@
+framework module Pods_MobisFrontend_MobisFrontendUITests {
+  umbrella header "Pods-MobisFrontend-MobisFrontendUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,15 +1,14 @@
-//
-//  Feed.swift
-//  MobisFrontend
-//
-//  Created by Zora Luo on 5/25/24.
-//
-//home page of app
 import SwiftUI
 
 struct Feed: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack {
+                // Example usage of the BlockComponentWrapper
+                BlockComponentWrapper(userName: "John Doe", losses: 5, stepsOwed: 5000)
+                // Add other views as needed
+            }
+        }
     }
 }
 

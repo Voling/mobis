@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0206A82D00499630E88A442E136347A7 /* Pods-MobisFrontend-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C9DE9271565A7BE283A2EAF7F3A0E0 /* Pods-MobisFrontend-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3249C8195EAE8CA99A42B349BB64D9A5 /* Pods-MobisFrontend-MobisFrontendUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A15958AF9AD91BC5FE9F15DDB0BEA63B /* Pods-MobisFrontend-MobisFrontendUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4613D5B4E88A4075A485D977B417CE22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		479AF80C2EC0B7A3D52025D83F514B24 /* Pods-MobisFrontendTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF33A40363DEB54E2DD47EC99F6307B9 /* Pods-MobisFrontendTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FEB0AD069E9C3A0F5DBF34E32C9E6FA /* Pods-MobisFrontendTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B638645E85D724F437A12F5C118D747F /* Pods-MobisFrontendTests-dummy.m */; };
+		AA3FD7A754DAC755FDA3900733806257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D8BB76D74B52EF4717B15E65689D6711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FAB637EC0E34DE2B0A767AF9E2031E58 /* Pods-MobisFrontend-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C65E641CAD8BFE21338B63DE3FC83B8 /* Pods-MobisFrontend-dummy.m */; };
+		FD43CFE9976DA8F736CB6FF0FDA01B06 /* Pods-MobisFrontend-MobisFrontendUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9885A9CC6CE02DD490A324DB0A57C69 /* Pods-MobisFrontend-MobisFrontendUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2945FA9573CB2090CC1B2C8A31F49F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF257CF5FEEC272732984BFB808C5E2;
+			remoteInfo = "Pods-MobisFrontend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C65E641CAD8BFE21338B63DE3FC83B8 /* Pods-MobisFrontend-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobisFrontend-dummy.m"; sourceTree = "<group>"; };
+		17918EAE02885B3714877ECC13C858AC /* Pods-MobisFrontendTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobisFrontendTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1901122D6A4923B49546E78E8E5685ED /* Pods-MobisFrontendTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobisFrontendTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D7D0116598E45B1977F2B6393B3E1A4 /* Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33519A444507A059B7FFA63BCEC40569 /* Pods-MobisFrontendTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MobisFrontendTests"; path = Pods_MobisFrontendTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34337E8B50CDC40DA6BD7C20FFB4DEEB /* Pods-MobisFrontend */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MobisFrontend"; path = Pods_MobisFrontend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D34C254B7D89C17EFCBAAE8E4FD1160 /* Pods-MobisFrontend-MobisFrontendUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobisFrontend-MobisFrontendUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46399B91609804E136EE539C59347824 /* Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57C9DE9271565A7BE283A2EAF7F3A0E0 /* Pods-MobisFrontend-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobisFrontend-umbrella.h"; sourceTree = "<group>"; };
+		5803A7015F286563A48CBFE19F868A8D /* Pods-MobisFrontendTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobisFrontendTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DA2CA798B13DC7ED7E1A5FD97B05E10 /* Pods-MobisFrontendTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobisFrontendTests-Info.plist"; sourceTree = "<group>"; };
+		657C5661E6DA5F20752717A5D886CF8F /* Pods-MobisFrontend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobisFrontend.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8867F3A46BDD595ABA4327CD99F3F6CD /* Pods-MobisFrontendTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobisFrontendTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A15958AF9AD91BC5FE9F15DDB0BEA63B /* Pods-MobisFrontend-MobisFrontendUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobisFrontend-MobisFrontendUITests-umbrella.h"; sourceTree = "<group>"; };
+		AF33A40363DEB54E2DD47EC99F6307B9 /* Pods-MobisFrontendTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MobisFrontendTests-umbrella.h"; sourceTree = "<group>"; };
+		B638645E85D724F437A12F5C118D747F /* Pods-MobisFrontendTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobisFrontendTests-dummy.m"; sourceTree = "<group>"; };
+		BDC7FD6BBF48F5CEA4C5DCB8946B4FE7 /* Pods-MobisFrontend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobisFrontend.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB641E9EC69782E5CB762DE5C9AAAF4 /* Pods-MobisFrontend-MobisFrontendUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MobisFrontend-MobisFrontendUITests"; path = Pods_MobisFrontend_MobisFrontendUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5155368F735FC8B43AC6A1C6030359B /* Pods-MobisFrontend-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobisFrontend-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7CD3B163F65A61A152A6B3E02B0EED2 /* Pods-MobisFrontend-MobisFrontendUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobisFrontend-MobisFrontendUITests.modulemap"; sourceTree = "<group>"; };
+		D90B77B7C03332567197C0A6C198B83B /* Pods-MobisFrontend-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobisFrontend-Info.plist"; sourceTree = "<group>"; };
+		E33FF5A8090A3CC0620B089C26214FCA /* Pods-MobisFrontend-MobisFrontendUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobisFrontend-MobisFrontendUITests-Info.plist"; sourceTree = "<group>"; };
+		E73D2027CA7EECB10FD57E06FED41DBF /* Pods-MobisFrontendTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobisFrontendTests.modulemap"; sourceTree = "<group>"; };
+		E9885A9CC6CE02DD490A324DB0A57C69 /* Pods-MobisFrontend-MobisFrontendUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobisFrontend-MobisFrontendUITests-dummy.m"; sourceTree = "<group>"; };
+		F032C270ED93DF3698F757720CCA75B6 /* Pods-MobisFrontend-MobisFrontendUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobisFrontend-MobisFrontendUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F195C93E226245E76182A2C0F2073A41 /* Pods-MobisFrontend-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobisFrontend-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7FD3A8DD8BE03FA81108C3EEC65673C /* Pods-MobisFrontend.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MobisFrontend.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F5105B1EC6A5889FD6D26A85400235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4613D5B4E88A4075A485D977B417CE22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48DCB8BD928E944745AB18CE2F99557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BB76D74B52EF4717B15E65689D6711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0C363D319363397886959292A9BE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3FD7A754DAC755FDA3900733806257 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D88EC8CCE5E8B118891750CD11B4DA9 /* Pods-MobisFrontend */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD3A8DD8BE03FA81108C3EEC65673C /* Pods-MobisFrontend.modulemap */,
+				C5155368F735FC8B43AC6A1C6030359B /* Pods-MobisFrontend-acknowledgements.markdown */,
+				F195C93E226245E76182A2C0F2073A41 /* Pods-MobisFrontend-acknowledgements.plist */,
+				0C65E641CAD8BFE21338B63DE3FC83B8 /* Pods-MobisFrontend-dummy.m */,
+				D90B77B7C03332567197C0A6C198B83B /* Pods-MobisFrontend-Info.plist */,
+				57C9DE9271565A7BE283A2EAF7F3A0E0 /* Pods-MobisFrontend-umbrella.h */,
+				BDC7FD6BBF48F5CEA4C5DCB8946B4FE7 /* Pods-MobisFrontend.debug.xcconfig */,
+				657C5661E6DA5F20752717A5D886CF8F /* Pods-MobisFrontend.release.xcconfig */,
+			);
+			name = "Pods-MobisFrontend";
+			path = "Target Support Files/Pods-MobisFrontend";
+			sourceTree = "<group>";
+		};
+		9E4D59EFEE17A33C7ADC8ACCAE7374D9 /* Pods-MobisFrontend-MobisFrontendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7CD3B163F65A61A152A6B3E02B0EED2 /* Pods-MobisFrontend-MobisFrontendUITests.modulemap */,
+				F032C270ED93DF3698F757720CCA75B6 /* Pods-MobisFrontend-MobisFrontendUITests-acknowledgements.markdown */,
+				3D34C254B7D89C17EFCBAAE8E4FD1160 /* Pods-MobisFrontend-MobisFrontendUITests-acknowledgements.plist */,
+				E9885A9CC6CE02DD490A324DB0A57C69 /* Pods-MobisFrontend-MobisFrontendUITests-dummy.m */,
+				E33FF5A8090A3CC0620B089C26214FCA /* Pods-MobisFrontend-MobisFrontendUITests-Info.plist */,
+				A15958AF9AD91BC5FE9F15DDB0BEA63B /* Pods-MobisFrontend-MobisFrontendUITests-umbrella.h */,
+				2D7D0116598E45B1977F2B6393B3E1A4 /* Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig */,
+				46399B91609804E136EE539C59347824 /* Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig */,
+			);
+			name = "Pods-MobisFrontend-MobisFrontendUITests";
+			path = "Target Support Files/Pods-MobisFrontend-MobisFrontendUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E90F1A624DC614749CAC608088376768 /* Products */,
+				DE62CF44BADD05041ADE36BC2ADA6BDB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE62CF44BADD05041ADE36BC2ADA6BDB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D88EC8CCE5E8B118891750CD11B4DA9 /* Pods-MobisFrontend */,
+				9E4D59EFEE17A33C7ADC8ACCAE7374D9 /* Pods-MobisFrontend-MobisFrontendUITests */,
+				F1EF10690C07982546260CE67A922CAC /* Pods-MobisFrontendTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E90F1A624DC614749CAC608088376768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34337E8B50CDC40DA6BD7C20FFB4DEEB /* Pods-MobisFrontend */,
+				BEB641E9EC69782E5CB762DE5C9AAAF4 /* Pods-MobisFrontend-MobisFrontendUITests */,
+				33519A444507A059B7FFA63BCEC40569 /* Pods-MobisFrontendTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1EF10690C07982546260CE67A922CAC /* Pods-MobisFrontendTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73D2027CA7EECB10FD57E06FED41DBF /* Pods-MobisFrontendTests.modulemap */,
+				1901122D6A4923B49546E78E8E5685ED /* Pods-MobisFrontendTests-acknowledgements.markdown */,
+				17918EAE02885B3714877ECC13C858AC /* Pods-MobisFrontendTests-acknowledgements.plist */,
+				B638645E85D724F437A12F5C118D747F /* Pods-MobisFrontendTests-dummy.m */,
+				5DA2CA798B13DC7ED7E1A5FD97B05E10 /* Pods-MobisFrontendTests-Info.plist */,
+				AF33A40363DEB54E2DD47EC99F6307B9 /* Pods-MobisFrontendTests-umbrella.h */,
+				5803A7015F286563A48CBFE19F868A8D /* Pods-MobisFrontendTests.debug.xcconfig */,
+				8867F3A46BDD595ABA4327CD99F3F6CD /* Pods-MobisFrontendTests.release.xcconfig */,
+			);
+			name = "Pods-MobisFrontendTests";
+			path = "Target Support Files/Pods-MobisFrontendTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1246CC1E177C76673492DFE3325F6457 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3249C8195EAE8CA99A42B349BB64D9A5 /* Pods-MobisFrontend-MobisFrontendUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638FCEBFFD52BB44AA310A30234A0E36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0206A82D00499630E88A442E136347A7 /* Pods-MobisFrontend-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747EA3EDB29E5295582AB2EDF5C19A4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479AF80C2EC0B7A3D52025D83F514B24 /* Pods-MobisFrontendTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DBA4EA36EC33860253231E3F2E42713 /* Pods-MobisFrontend-MobisFrontendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EC72D46D5401FC4A37CDB78368E0A1 /* Build configuration list for PBXNativeTarget "Pods-MobisFrontend-MobisFrontendUITests" */;
+			buildPhases = (
+				1246CC1E177C76673492DFE3325F6457 /* Headers */,
+				5D82B3598DFE8BD540B4C8ECD13B71D5 /* Sources */,
+				EA0C363D319363397886959292A9BE8C /* Frameworks */,
+				4ECE99802BF9ED64D6B598B544C47ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MobisFrontend-MobisFrontendUITests";
+			productName = Pods_MobisFrontend_MobisFrontendUITests;
+			productReference = BEB641E9EC69782E5CB762DE5C9AAAF4 /* Pods-MobisFrontend-MobisFrontendUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		93913844EDB90048B0129DE8AC9E4E67 /* Pods-MobisFrontendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF310DAF2C745A6E67E88C187FFCA74 /* Build configuration list for PBXNativeTarget "Pods-MobisFrontendTests" */;
+			buildPhases = (
+				747EA3EDB29E5295582AB2EDF5C19A4A /* Headers */,
+				4C3B892F16F475496B1113CB5C559E73 /* Sources */,
+				C48DCB8BD928E944745AB18CE2F99557 /* Frameworks */,
+				1CF63687E63EC05C481533D34DA1EA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1AD946B1D46F37A2A316D9B298A01D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MobisFrontendTests";
+			productName = Pods_MobisFrontendTests;
+			productReference = 33519A444507A059B7FFA63BCEC40569 /* Pods-MobisFrontendTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEF257CF5FEEC272732984BFB808C5E2 /* Pods-MobisFrontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17093CC88284B88148E4A52B86671D01 /* Build configuration list for PBXNativeTarget "Pods-MobisFrontend" */;
+			buildPhases = (
+				638FCEBFFD52BB44AA310A30234A0E36 /* Headers */,
+				E2DDFCA3CB6085436861CE1462E65011 /* Sources */,
+				49F5105B1EC6A5889FD6D26A85400235 /* Frameworks */,
+				39CA2C352CA128BB7636F215B15D9F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MobisFrontend";
+			productName = Pods_MobisFrontend;
+			productReference = 34337E8B50CDC40DA6BD7C20FFB4DEEB /* Pods-MobisFrontend */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E90F1A624DC614749CAC608088376768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF257CF5FEEC272732984BFB808C5E2 /* Pods-MobisFrontend */,
+				3DBA4EA36EC33860253231E3F2E42713 /* Pods-MobisFrontend-MobisFrontendUITests */,
+				93913844EDB90048B0129DE8AC9E4E67 /* Pods-MobisFrontendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF63687E63EC05C481533D34DA1EA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CA2C352CA128BB7636F215B15D9F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECE99802BF9ED64D6B598B544C47ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3B892F16F475496B1113CB5C559E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEB0AD069E9C3A0F5DBF34E32C9E6FA /* Pods-MobisFrontendTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D82B3598DFE8BD540B4C8ECD13B71D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD43CFE9976DA8F736CB6FF0FDA01B06 /* Pods-MobisFrontend-MobisFrontendUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DDFCA3CB6085436861CE1462E65011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB637EC0E34DE2B0A767AF9E2031E58 /* Pods-MobisFrontend-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1AD946B1D46F37A2A316D9B298A01D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MobisFrontend";
+			target = EEF257CF5FEEC272732984BFB808C5E2 /* Pods-MobisFrontend */;
+			targetProxy = 2945FA9573CB2090CC1B2C8A31F49F6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		118B9A10EB025AB0AEA1BC601B757449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7D0116598E45B1977F2B6393B3E1A4 /* Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobisFrontend-MobisFrontendUITests/Pods-MobisFrontend-MobisFrontendUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobisFrontend-MobisFrontendUITests/Pods-MobisFrontend-MobisFrontendUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		598E9E08AC2F0317D9870232DA514867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC7FD6BBF48F5CEA4C5DCB8946B4FE7 /* Pods-MobisFrontend.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobisFrontend/Pods-MobisFrontend-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobisFrontend/Pods-MobisFrontend.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		935326C13E7D9A1D8B6E22B9E3B6498C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8867F3A46BDD595ABA4327CD99F3F6CD /* Pods-MobisFrontendTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobisFrontendTests/Pods-MobisFrontendTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobisFrontendTests/Pods-MobisFrontendTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC358CB6C5016B8867CCB92AFD150906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46399B91609804E136EE539C59347824 /* Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobisFrontend-MobisFrontendUITests/Pods-MobisFrontend-MobisFrontendUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobisFrontend-MobisFrontendUITests/Pods-MobisFrontend-MobisFrontendUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3AD2C286B035DE94C53424F931F735F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5803A7015F286563A48CBFE19F868A8D /* Pods-MobisFrontendTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobisFrontendTests/Pods-MobisFrontendTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobisFrontendTests/Pods-MobisFrontendTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA4F0E5B4EE5885820467BCBB91FCADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657C5661E6DA5F20752717A5D886CF8F /* Pods-MobisFrontend.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MobisFrontend/Pods-MobisFrontend-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MobisFrontend/Pods-MobisFrontend.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09EC72D46D5401FC4A37CDB78368E0A1 /* Build configuration list for PBXNativeTarget "Pods-MobisFrontend-MobisFrontendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B9A10EB025AB0AEA1BC601B757449 /* Debug */,
+				BC358CB6C5016B8867CCB92AFD150906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17093CC88284B88148E4A52B86671D01 /* Build configuration list for PBXNativeTarget "Pods-MobisFrontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598E9E08AC2F0317D9870232DA514867 /* Debug */,
+				CA4F0E5B4EE5885820467BCBB91FCADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF310DAF2C745A6E67E88C187FFCA74 /* Build configuration list for PBXNativeTarget "Pods-MobisFrontendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3AD2C286B035DE94C53424F931F735F /* Debug */,
+				935326C13E7D9A1D8B6E22B9E3B6498C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

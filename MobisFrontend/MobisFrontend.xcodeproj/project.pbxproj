@@ -22,6 +22,11 @@
 		87F1EAB62C0287A900228378 /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB52C0287A900228378 /* Landing.swift */; };
 		87F1EAB82C02956900228378 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB72C02956900228378 /* HealthManager.swift */; };
 		87F1EABA2C029EA200228378 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EAB92C029EA200228378 /* Settings.swift */; };
+		87F1EABD2C02B67200228378 /* BlockComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EABC2C02B67200228378 /* BlockComponent.swift */; };
+		87F1EABF2C02B88500228378 /* BlockComponentWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F1EABE2C02B88400228378 /* BlockComponentWrapper.swift */; };
+		8DC1431A3F03AB1A40635DD6 /* Pods_MobisFrontend_MobisFrontendUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E22392C8A5ABEA220498D2 /* Pods_MobisFrontend_MobisFrontendUITests.framework */; };
+		A63B005A7329C6AE78FD618B /* Pods_MobisFrontend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF319241BB036A0A4B1F4D8C /* Pods_MobisFrontend.framework */; };
+		C1520BA0F8047B5796A0A20F /* Pods_MobisFrontendTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2548EC348AFC8B08DF34F68F /* Pods_MobisFrontendTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2548EC348AFC8B08DF34F68F /* Pods_MobisFrontendTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobisFrontendTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87533D352C027C2300363E60 /* MobisFrontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobisFrontend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87533D382C027C2300363E60 /* MobisFrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobisFrontendApp.swift; sourceTree = "<group>"; };
 		87533D3A2C027C2300363E60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +66,17 @@
 		87F1EAB52C0287A900228378 /* Landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
 		87F1EAB72C02956900228378 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
 		87F1EAB92C029EA200228378 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		87F1EABB2C02AE5000228378 /* MobisFrontend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobisFrontend.entitlements; sourceTree = "<group>"; };
+		87F1EABC2C02B67200228378 /* BlockComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockComponent.swift; sourceTree = "<group>"; };
+		87F1EABE2C02B88400228378 /* BlockComponentWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockComponentWrapper.swift; sourceTree = "<group>"; };
+		91D2F94CADEF1DF0AE343CA1 /* Pods-MobisFrontendTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobisFrontendTests.release.xcconfig"; path = "Target Support Files/Pods-MobisFrontendTests/Pods-MobisFrontendTests.release.xcconfig"; sourceTree = "<group>"; };
+		A007692AE3F88DDD07AF1B13 /* Pods-MobisFrontend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobisFrontend.release.xcconfig"; path = "Target Support Files/Pods-MobisFrontend/Pods-MobisFrontend.release.xcconfig"; sourceTree = "<group>"; };
+		AF319241BB036A0A4B1F4D8C /* Pods_MobisFrontend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobisFrontend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E22392C8A5ABEA220498D2 /* Pods_MobisFrontend_MobisFrontendUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobisFrontend_MobisFrontendUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E30AA3DFE59D8DDA27FBC9 /* Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig"; path = "Target Support Files/Pods-MobisFrontend-MobisFrontendUITests/Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9D7618B18F997C0CEE3BD65 /* Pods-MobisFrontend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobisFrontend.debug.xcconfig"; path = "Target Support Files/Pods-MobisFrontend/Pods-MobisFrontend.debug.xcconfig"; sourceTree = "<group>"; };
+		BB966C6D51C7BFFBCAEA4FD2 /* Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig"; path = "Target Support Files/Pods-MobisFrontend-MobisFrontendUITests/Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBCB45523B6032678151F30B /* Pods-MobisFrontendTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobisFrontendTests.debug.xcconfig"; path = "Target Support Files/Pods-MobisFrontendTests/Pods-MobisFrontendTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A63B005A7329C6AE78FD618B /* Pods_MobisFrontend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1520BA0F8047B5796A0A20F /* Pods_MobisFrontendTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +100,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC1431A3F03AB1A40635DD6 /* Pods_MobisFrontend_MobisFrontendUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1AE47CD495BBB291F8A89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9D7618B18F997C0CEE3BD65 /* Pods-MobisFrontend.debug.xcconfig */,
+				A007692AE3F88DDD07AF1B13 /* Pods-MobisFrontend.release.xcconfig */,
+				B8E30AA3DFE59D8DDA27FBC9 /* Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig */,
+				BB966C6D51C7BFFBCAEA4FD2 /* Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig */,
+				FBCB45523B6032678151F30B /* Pods-MobisFrontendTests.debug.xcconfig */,
+				91D2F94CADEF1DF0AE343CA1 /* Pods-MobisFrontendTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		87533D2C2C027C2300363E60 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +128,8 @@
 				87533D482C027C2600363E60 /* MobisFrontendTests */,
 				87533D522C027C2600363E60 /* MobisFrontendUITests */,
 				87533D362C027C2300363E60 /* Products */,
+				5B1AE47CD495BBB291F8A89D /* Pods */,
+				8AFB285FB3E8B2B59243138A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +146,7 @@
 		87533D372C027C2300363E60 /* MobisFrontend */ = {
 			isa = PBXGroup;
 			children = (
+				87F1EABB2C02AE5000228378 /* MobisFrontend.entitlements */,
 				87533D382C027C2300363E60 /* MobisFrontendApp.swift */,
 				87533D3A2C027C2300363E60 /* ContentView.swift */,
 				87533D3C2C027C2600363E60 /* Assets.xcassets */,
@@ -122,6 +159,8 @@
 				87F1EAB52C0287A900228378 /* Landing.swift */,
 				87F1EAB72C02956900228378 /* HealthManager.swift */,
 				87F1EAB92C029EA200228378 /* Settings.swift */,
+				87F1EABC2C02B67200228378 /* BlockComponent.swift */,
+				87F1EABE2C02B88400228378 /* BlockComponentWrapper.swift */,
 			);
 			path = MobisFrontend;
 			sourceTree = "<group>";
@@ -151,6 +190,16 @@
 			path = MobisFrontendUITests;
 			sourceTree = "<group>";
 		};
+		8AFB285FB3E8B2B59243138A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF319241BB036A0A4B1F4D8C /* Pods_MobisFrontend.framework */,
+				B7E22392C8A5ABEA220498D2 /* Pods_MobisFrontend_MobisFrontendUITests.framework */,
+				2548EC348AFC8B08DF34F68F /* Pods_MobisFrontendTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87533D592C027C2700363E60 /* Build configuration list for PBXNativeTarget "MobisFrontend" */;
 			buildPhases = (
+				F9652C000B50D792212031BF /* [CP] Check Pods Manifest.lock */,
 				87533D312C027C2300363E60 /* Sources */,
 				87533D322C027C2300363E60 /* Frameworks */,
 				87533D332C027C2300363E60 /* Resources */,
@@ -175,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87533D5C2C027C2700363E60 /* Build configuration list for PBXNativeTarget "MobisFrontendTests" */;
 			buildPhases = (
+				205F6EDDC6028F0C8435B9DA /* [CP] Check Pods Manifest.lock */,
 				87533D412C027C2600363E60 /* Sources */,
 				87533D422C027C2600363E60 /* Frameworks */,
 				87533D432C027C2600363E60 /* Resources */,
@@ -193,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87533D5F2C027C2700363E60 /* Build configuration list for PBXNativeTarget "MobisFrontendUITests" */;
 			buildPhases = (
+				4D8954D57365210CE016DCC0 /* [CP] Check Pods Manifest.lock */,
 				87533D4B2C027C2600363E60 /* Sources */,
 				87533D4C2C027C2600363E60 /* Frameworks */,
 				87533D4D2C027C2600363E60 /* Resources */,
@@ -214,6 +266,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -276,15 +331,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		205F6EDDC6028F0C8435B9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobisFrontendTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D8954D57365210CE016DCC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobisFrontend-MobisFrontendUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9652C000B50D792212031BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobisFrontend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87533D312C027C2300363E60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				87533D3B2C027C2300363E60 /* ContentView.swift in Sources */,
+				87F1EABF2C02B88500228378 /* BlockComponentWrapper.swift in Sources */,
 				87F1EAB82C02956900228378 /* HealthManager.swift in Sources */,
 				87F1EAB22C02873B00228378 /* Feed.swift in Sources */,
 				87F1EAB02C02872200228378 /* Profile.swift in Sources */,
+				87F1EABD2C02B67200228378 /* BlockComponent.swift in Sources */,
 				87F1EABA2C029EA200228378 /* Settings.swift in Sources */,
 				8753A0842C02855700E143AF /* Leaderboard.swift in Sources */,
 				87F1EAB42C02877900228378 /* LogInPage.swift in Sources */,
@@ -448,15 +574,18 @@
 		};
 		87533D5A2C027C2700363E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D7618B18F997C0CEE3BD65 /* Pods-MobisFrontend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobisFrontend/MobisFrontend.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MobisFrontend/Preview Content\"";
 				DEVELOPMENT_TEAM = UR57CQHLAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to health information for step tracking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,15 +606,18 @@
 		};
 		87533D5B2C027C2700363E60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A007692AE3F88DDD07AF1B13 /* Pods-MobisFrontend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MobisFrontend/MobisFrontend.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MobisFrontend/Preview Content\"";
 				DEVELOPMENT_TEAM = UR57CQHLAS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to health information for step tracking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,6 +638,7 @@
 		};
 		87533D5D2C027C2700363E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCB45523B6032678151F30B /* Pods-MobisFrontendTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +659,7 @@
 		};
 		87533D5E2C027C2700363E60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D2F94CADEF1DF0AE343CA1 /* Pods-MobisFrontendTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -546,6 +680,7 @@
 		};
 		87533D602C027C2700363E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E30AA3DFE59D8DDA27FBC9 /* Pods-MobisFrontend-MobisFrontendUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -564,6 +699,7 @@
 		};
 		87533D612C027C2700363E60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB966C6D51C7BFFBCAEA4FD2 /* Pods-MobisFrontend-MobisFrontendUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_MobisFrontend {
+  umbrella header "Pods-MobisFrontend-umbrella.h"
+
+  export *
+  module * { export * }
+}
