@@ -2,55 +2,44 @@ import json
 import boto3
 import botocore
 client = boto3.client('dynamodb')
-cognito_client = boto3.client('cognito-idp')
 dynamodb = boto3.resource("dynamodb")
 table = dynamodb.Table('mobisusers')
 
-
+#can only be invoked after cognito confirms a user signup
 def lambda_handler(event, context):
-    event = json.loads("""{
-    "version": "1",
-    "region": "us-west-2",
-    "userPoolId": "us-west-1_5SOVhTCcK",
-    "userName": "user@example.com",
-    "callerContext": {
-        "awsSdkVersion": "aws-sdk-unknown-unknown",
-        "clientId": "xxxxxxxxxxxx"
-    },
-    "triggerSource": "PostConfirmation_ConfirmSignUp",
-    "request": {
-        "userAttributes": {
-            "sub": "12345678-1234-1234-1234-123456789012",
-            "email_verified": "true",
-            "cognito:user_status": "CONFIRMED",
-            "custom:username": "exampleuser",
-            "email": "user@example.com"
-        }
-    },
-    "response": {}
-    }""")
+    print(event)
     try:
         userId = event['request']['userAttributes']['sub']  # sub = uuid
-        userPoolId = event['userPoolId']
-        response = cognito_client.admin_get_user(
-            UserPoolId=userPoolId,
-            Username=userId
-        )
-        attributes = {attr['Name']: attr['Value']
-                      for attr in response['UserAttributes']}
+        username = event['request']['userAttributes'].get(
+            'custom:username', 'N/A')  # for sort key
+        runExperience = event['request']['userAttributes'].get(
+            'custom:runExperience', 0)
+        initialRank = 500
+        response = table.put_item(Item={
+            'userid': userId,
+            'username': username,
+            'runExperience': runExperience, 
+            'rank': initialRank,
+            'gameUserNames': {'lol': "", 'valorant': ""},
+            'runningStats': {},
+            'recent20Games': {},
+            'debt': 0,
+            'longestLossStreak': 0
+        })  # initialize user with 500 elo, 0 everything
+        return {
+            'statusCode': 200,
+            'body': json.dumps('User details stored successfully in DynamoDB')
+        }
 
-    except botocore.exceptions.ClientError as error:
+    except botocore.exceptions.ClientError as e:
+        print(f"Error storing user data: {e.response['Error']['Message']}")
         return {
             'statusCode': 500,
-            'body': json.dumps(str(error))
+            'body': json.dumps(f"Error storing user data: {e.response['Error']['Message']}")
         }
     except Exception as e:
-        print(e)
+        print(f"Invalid request: {str(e)}")
         return {
-            'statusCode': 404,
-            'body': json.dumps(str(e))
+            'statusCode': 400,
+            'body': json.dumps(f"Invalid request: {str(e)}")
         }
-    return {
-        'statusCode': 200,
-        'body': json.dumps("hi")
-    }
