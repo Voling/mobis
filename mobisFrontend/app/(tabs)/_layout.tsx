@@ -1,8 +1,5 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-
-import { FlatList } from 'react-native'
-import { TabBarIcon } from '@/components/navigation/TabBarIcon';
 import Boot from '../../assets/svgs/Boot'
 import TrophyClicked from '../../assets/svgs/TrophyClicked'
 import BootClick from '../../assets/svgs/BootClick'

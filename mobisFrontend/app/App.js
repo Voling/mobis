@@ -2,9 +2,9 @@ import React, { useContext, useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LandingPage from './landing/landing';
-import LoginPage from './landing/login';
-import SignUpPage from './landing/signup';
-import HomePage from './(tabs)/index';
+import LoginPage from './(tabs)/login';
+import SignUpPage from './(tabs)/signup';
+import HomePage from './(tabs)';
 import { AuthContext } from '../context/AuthContext';
 
 const Stack = createNativeStackNavigator();
@@ -14,6 +14,7 @@ function App() {
 
   useEffect(() => {
     checkLoggedIn();
+    console.log('dab')
   }, []);
 
   return (
