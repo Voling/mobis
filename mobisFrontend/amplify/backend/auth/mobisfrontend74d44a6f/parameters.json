@@ -1,0 +1,25 @@
+{
+  "authSelections": "identityPoolAndUserPool",
+  "resourceName": "mobisfrontend74d44a6f",
+  "serviceType": "imported",
+  "region": "us-west-1",
+  "aliasAttributes": [
+    "email",
+    "phone_number"
+  ],
+  "requiredAttributes": [
+    "preferred_username"
+  ],
+  "passwordPolicyMinLength": 8,
+  "passwordPolicyCharacters": [
+    "Requires Numbers"
+  ],
+  "mfaConfiguration": "OPTIONAL",
+  "autoVerifiedAttributes": [
+    "phone_number"
+  ],
+  "mfaTypes": [
+    "SMS Text Message",
+    "TOTP"
+  ]
+}

@@ -1,7 +1,13 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
 
+import { FlatList } from 'react-native'
 import { TabBarIcon } from '@/components/navigation/TabBarIcon';
+import Boot from '../../assets/svgs/Boot'
+import TrophyClicked from '../../assets/svgs/TrophyClicked'
+import BootClick from '../../assets/svgs/BootClick'
+import TrophyUnclicked from '../../assets/svgs/TrophyUnclicked'
+
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
@@ -19,7 +25,7 @@ export default function TabLayout() {
         options={{
           title: 'home',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+            focused ? <TrophyClicked/> : <TrophyUnclicked/>
           ),
         }}
       />
@@ -28,7 +34,16 @@ export default function TabLayout() {
         options={{
           title: 'feed',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            focused ? <BootClick/> : <Boot/>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'profile',
+          tabBarIcon: ({ color, focused }) => (
+            focused ? <BootClick/> : <Boot/>
           ),
         }}
       />

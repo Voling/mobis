@@ -1,0 +1,119 @@
+{
+  "api": {
+    "mobisfrontend": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "mobisfrontend74d44a6f": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_mobisfrontend74d44a6f_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    },
+    "AMPLIFY_auth_mobisfrontend74d44a6f_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "mobisfrontend74d44a6f"
+        }
+      ]
+    }
+  }
+}

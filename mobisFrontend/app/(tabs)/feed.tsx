@@ -1,22 +1,30 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import FeedItem from '@/components/FeedPage/FeedItemComponent';
 
 const Feed = () => {
+  
+    
+
+    // from feed we need to fetch
+    // an array of user data
+    // this data includes:
+    // username object with losses, stepsowed, steps today, avatar pic
+    // map over the data, create feed item for each user
+
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.header}>User Feed</Text>
-      {/* Example feed items */}
-      <Text style={styles.item}>Feed Item 1</Text>
-      <Text style={styles.item}>Feed Item 2</Text>
-      <Text style={styles.item}>Feed Item 3</Text>
-      {/* Add more items as needed */}
+      <FeedItem username="You" losses={69} stepsOwed={69420} stepsToday={1337} avatar={null}/>
+      <FeedItem username="dabber123" losses={69} stepsOwed={69420} stepsToday={1337} avatar={null}/>
+      <FeedItem username="loltyler1" losses={69} stepsOwed={69420} stepsToday={1337} avatar={null}/>
+
     </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexDirection: 'column',
     backgroundColor: '#fff',
     padding: 10,
   },

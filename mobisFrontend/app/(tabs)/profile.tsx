@@ -1,5 +1,6 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
+// import mobisBG from '../../assets/images/mobisBG.png';
 
 
 export default function TabTwoScreen() {
@@ -27,7 +28,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 10,
     margin: 10,
-    width: '50%',
-
+    width: '50%'
   }
 });
