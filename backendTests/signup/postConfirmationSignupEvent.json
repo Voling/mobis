@@ -13,7 +13,7 @@
       "sub": "3959296e-5081-70ee-af36-3ef7add28462",
       "email_verified": "true",
       "cognito:user_status": "CONFIRMED",
-      "custom:username": "test",
+      "username": "test",
       "email": "test@gmail.com"
     }
   },

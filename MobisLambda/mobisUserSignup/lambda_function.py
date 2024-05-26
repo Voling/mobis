@@ -26,10 +26,7 @@ def lambda_handler(event, context):
             'debt': 0,
             'longestLossStreak': 0
         })  # initialize user with 500 elo, 0 everything
-        return {
-            'statusCode': 200,
-            'body': json.dumps('User details stored successfully in DynamoDB')
-        }
+        return event
 
     except botocore.exceptions.ClientError as e:
         print(f"Error storing user data: {e.response['Error']['Message']}")
